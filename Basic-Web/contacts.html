@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+           <a href="index.html"><img src="images/html.png" alt="" /></a>
+          <h1>Jayson</h1>
+        </div>
+
+        <ul class="slash-list">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contacts.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+        <main>
+          <section id="contact">
+            <h1>Contact Me</h1>
+            <p>
+              I'd love to hear from you. Fill out the form or reach out
+              directly.
+            </p>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+              <p>
+                <strong>Phone:</strong>
+                <a href="tel:+1234567890">+1 (234) 567-890</a>
+              </p>
+              <p>
+                <strong>Email:</strong>
+                <a href="mailto:yourname@example.com">yourname@example.com</a>
+              </p>
+              <p>
+                <strong>Address:</strong> 123 Developer Street, Code City, 10001
+              </p>
+            </div>
+
+            <!-- Contact Form -->
+            <form
+              action="mailto:yourname@example.com"
+              method="POST"
+              enctype="text/plain"
+            >
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+
+              <button type="submit">Send Message</button>
+            </form>
+          </section>
+        </main>
+
+        <footer>
+          <p>&copy; 2025 My Website. All rights reserved.</p>
+          <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+          <p>Email: <a href="mailto:example@email.com">example@email.com</a></p>
+        </footer>
+      </body>
+    </html>
+  </body>
+</html>
